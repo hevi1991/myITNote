@@ -18,7 +18,12 @@
 	svn checkout svn://localhost/mycode --username=mj --password=123 /Users/apple/Documents/code
 	svn checkout 公司SVN服务器地址 --username=mj --password=123 目标地址
 
-我解释下指令的意思：将服务器中mycode仓库的内容下载到/Users/apple/Documents/code目录中  
+我解释下指令的意思：将服务器中mycode仓库的内容下载到/Users/apple/Documents/code目录中    
+  
+###假如有新的文件,需要添加  
+	svn add filename  
+###假如有文件删除,需要添加
+	svn delete filename
   
 ###3.提交更改过的代码到服务器
 
